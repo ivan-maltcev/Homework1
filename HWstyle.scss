@@ -49,6 +49,13 @@ body {
         color: white;
         font-size: 24px;
         font-weight: 600;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    &-button:hover {
+        background-color: white;
+        color: black;
+        border: black;
     }
 }
 
@@ -83,3 +90,95 @@ body {
         left: 854px;
     }
 }
+
+.spripe {
+    width: 3122px;
+    height: 90px;
+    background: rgb(188, 236, 48);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 51px;
+    position: relative;
+
+    &-link {
+        font-size: 30px;
+        font-weight: 700;
+        text-decoration: none;
+        color: rgb(32, 32, 39);
+    }
+
+}  
+
+.product_box {
+    background-color: black;
+    padding-top: 94px;
+    padding-bottom: 50px;
+
+    &__about {
+        color: white;
+        font-size: 64px;
+        font-weight: 700; 
+        margin-bottom: 24px;  
+    }
+
+    &-description {
+        width: 788px;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 72px;
+    }
+
+    &-column {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-bottom: 4px;
+    }
+
+    &-product {
+        width: 378px;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+    &-link {
+        text-decoration: none;
+    }
+
+    &-img {
+        border-radius: 30px;
+    }
+
+    &-info {
+        padding: 32px;
+    }
+
+    &-№ {
+        height: 36px;
+        background-color: rgb(247, 247, 247);
+        color: black;
+        display: flex;
+        width: 108px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        margin-bottom: 16px;
+    }
+
+    &-name {
+        font-size: 32px;
+        font-weight: 700;
+        color: black;
+    }
+
+}
+

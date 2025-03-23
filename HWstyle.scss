@@ -54,7 +54,12 @@ body {
         font-size: 24px;
         font-weight: 600;
         transition: color 0.3s ease, text-decoration 0.3s ease;
+
+        &--mob {
+            display: none;
+        }
     }
+
 
     &__button {
         text-decoration: none;
@@ -92,6 +97,10 @@ body {
         &--5 {
             bottom: 3px;
             left: 854px;
+        }
+
+        &--mob {
+            display: none;
         }
     }
 }
